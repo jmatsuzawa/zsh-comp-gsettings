@@ -18,7 +18,7 @@ compinit
 ```
 
 ## Completion to be More Complete
-You can help me improve the gsettings completion. If you find any problems or you have other preferences for completion style, feel free to file your issues. Any patch is welcome.
+You can help me improve the gsettings completion. If you find any problems or you have other preferences for completion style, feel free to file your issues on the [issue page](https://github.com/jmatsuzawa/zsh-comp-gsettings/issues). Any patch is welcome.
 
 ## Tested Version
 * gsettings: 2.36
