@@ -10,19 +10,19 @@ _gsettings() {
 (( $+functions[_gsettings_commands] )) || _gsettings_commands() {
   local -a command_list
   command_list=(
-    'help:Show the help'
-    'list-schemas:List installed schemas'
-    'list-relocatable-schemas:List relocatable schemas'
-    'list-keys:List keys in a schema'
-    'list-children:List children of a schema'
-    'list-recursively:List keys and values, recursively'
-    'range:Queries the range of a key'
-    'get:Get the value of a key'
-    'set:Set the value of a key'
-    'reset:Reset the value of a key'
-    'reset-recursively:Reset all values in a given schema'
-    'writable:Check if a key is writable'
-    'monitor:Watch for changes'
+    'help:show the help'
+    'list-schemas:list installed schemas'
+    'list-relocatable-schemas:list relocatable schemas'
+    'list-keys:list keys in a schema'
+    'list-children:list children of a schema'
+    'list-recursively:list keys and values, recursively'
+    'range:queries the range of a key'
+    'get:get the value of a key'
+    'set:set the value of a key'
+    'reset:reset the value of a key'
+    'reset-recursively:reset all values in a given schema'
+    'writable:check if a key is writable'
+    'monitor:watch for changes'
   )
   _describe -t commands 'gsettings commands' command_list
 }
@@ -77,19 +77,19 @@ _gsettings() {
 (( $+functions[_gsettings_help_targets] )) || _gsettings_help_targets() {
   local -a target_list
   target_list=(
-    'help:Show the help'
-    'list-schemas:List installed schemas'
-    'list-relocatable-schemas:List relocatable schemas'
-    'list-keys:List keys in a schema'
-    'list-children:List children of a schema'
-    'list-recursively:List keys and values, recursively'
-    'range:Queries the range of a key'
-    'get:Get the value of a key'
-    'set:Set the value of a key'
-    'reset:Reset the value of a key'
-    'reset-recursively:Reset all values in a given schema'
-    'writable:Check if a key is writable'
-    'monitor:Watch for changes'
+    'help:show the help'
+    'list-schemas:list installed schemas'
+    'list-relocatable-schemas:list relocatable schemas'
+    'list-keys:list keys in a schema'
+    'list-children:list children of a schema'
+    'list-recursively:list keys and values, recursively'
+    'range:queries the range of a key'
+    'get:get the value of a key'
+    'set:set the value of a key'
+    'reset:reset the value of a key'
+    'reset-recursively:reset all values in a given schema'
+    'writable:check if a key is writable'
+    'monitor:watch for changes'
   )
   _describe -t help-target 'help targets' target_list
 }
