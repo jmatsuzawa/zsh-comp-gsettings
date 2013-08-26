@@ -2,7 +2,7 @@
 
 _gsettings() {
   _arguments : \
-    '--schemadir[A directory to search for additional schemas]:additional schema:_files -/' \
+    '--schemadir[A directory to search for additional schemas]:additional schema:_path_files -/' \
     ':gsettings command:_gsettings_commands' \
     '*: :_gsettings_rest_args'
 }
