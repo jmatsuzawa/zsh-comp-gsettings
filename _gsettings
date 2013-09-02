@@ -49,7 +49,8 @@ _gsettings() {
         help)
           _gsettings_help_targets
           ;;
-        list-keys|list-children|list-recursively|range|get|set|reset|reset-recursively|writable|monitor)
+        list-keys|list-children|list-recursively|range|get|set|reset| \
+        reset-recursively|writable|monitor)
           _gsettings_schemas "$opt_schemadir" "$schemadir"
           ;;
       esac
